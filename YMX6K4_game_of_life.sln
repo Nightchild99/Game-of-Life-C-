@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YMX6K4_game_of_life", "YMX6K4_game_of_life\YMX6K4_game_of_life.vcxproj", "{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Debug|x64.ActiveCfg = Debug|x64
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Debug|x64.Build.0 = Debug|x64
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Debug|x86.Build.0 = Debug|Win32
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Release|x64.ActiveCfg = Release|x64
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Release|x64.Build.0 = Release|x64
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Release|x86.ActiveCfg = Release|Win32
+		{F6EF3827-C2F9-4C84-A305-7BFFC2E42EE4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9C7B3CB-B844-4441-A392-2F2230FD2571}
+	EndGlobalSection
+EndGlobal
