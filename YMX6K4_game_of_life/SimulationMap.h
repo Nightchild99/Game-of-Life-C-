@@ -5,7 +5,7 @@
 class SimulationMap {
 
 public:
-	bool EveryCellDead;
+	bool CellDead;
 
 	SimulationMap(const int X);
 	SimulationMap(const int X, const int Y);
@@ -13,16 +13,16 @@ public:
 	SimulationMap(const int X, const int Y, const double chance);
 	SimulationMap(const int Height, const int Width, const int Top, const int Left, std::vector<std::vector<int>> lilMap);
 
-	void CreateMap(const int X, const int Y, const double Prob = 0.1);
+	void SetupMap(const int X, const int Y, const double Prob = 0.1);
 
 	void GenerationStep();
 
-	int CheckBorder(const int i, const int j);
+	int CheckNeighbours(const int i, const int j);
 
 	void DisplaySimulation();
 
 private:
-	int X;
-	int Y;
+	int mX;
+	int mY;
 	std::vector<std::vector<int>> mMap;
 };
